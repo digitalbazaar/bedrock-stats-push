@@ -1,0 +1,20 @@
+{
+  "name": "bedrock-stats-push-http-test",
+  "version": "0.0.1-0",
+  "private": true,
+  "scripts": {
+    "test": "redis-cli flushall & node --preserve-symlinks test test"
+  },
+  "dependencies": {
+    "bedrock": "^1.15.0",
+    "bedrock-jobs": "^3.0.0",
+    "bedrock-package-manager": "^1.0.0",
+    "bedrock-redis": "^3.4.0",
+    "bedrock-stats": "^1.0.0",
+    "bedrock-stats-monitor-os": "^1.0.0",
+    "bedrock-stats-push-http": "file:..",
+    "bedrock-stats-storage-redis": "^1.0.0",
+    "bedrock-test": "^2.1.0",
+    "nock": "^10.0.6"
+  }
+}

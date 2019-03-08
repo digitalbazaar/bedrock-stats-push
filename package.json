@@ -1,0 +1,44 @@
+{
+  "name": "bedrock-stats-push-http",
+  "version": "0.0.1-0",
+  "description": "Bedrock stats push HTTP",
+  "main": "lib",
+  "scripts": {
+    "generate-readme": "jsdoc2md -t readme-template.hbs lib/index.js > README.md",
+    "lint": "eslint lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalbazaar/bedrock-stats-push-http.git"
+  },
+  "author": {
+    "name": "Digital Bazaar, Inc.",
+    "email": "support@digitalbazaar.com",
+    "url": "https://digitalbazaar.com"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalbazaar/bedrock-stats-push-http/issues"
+  },
+  "homepage": "https://github.com/digitalbazaar/bedrock-stats-push-http",
+  "dependencies": {
+    "apisauce": "^1.0.2",
+    "assert-plus": "^1.0.0",
+    "fast-memoize": "^2.5.1"
+  },
+  "peerDependencies": {
+    "bedrock": "^1.15.0",
+    "bedrock-jobs": "^3.0.0",
+    "bedrock-redis": "^3.4.0",
+    "bedrock-stats": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-config-digitalbazaar": "^2.0.0",
+    "eslint-plugin-jsdoc": "^4.4.3",
+    "jsdoc": "^3.5.5",
+    "jsdoc-to-markdown": "^4.0.1"
+  }
+}
